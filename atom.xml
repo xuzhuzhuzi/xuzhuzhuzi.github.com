@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-24T12:50:36.337Z</updated>
+  <updated>2016-06-25T13:28:29.405Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何用git将项目提交到github上</title>
+    <link href="http://yoursite.com/2016/06/25/something/"/>
+    <id>http://yoursite.com/2016/06/25/something/</id>
+    <published>2016-06-25T12:55:46.000Z</published>
+    <updated>2016-06-25T13:28:29.405Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;提交项目&quot;&gt;&lt;a href=&quot;#提交项目&quot; class=&quot;headerlink&quot; title=&quot;提交项目&quot;&gt;&lt;/a&gt;提交项目&lt;/h2&gt;&lt;p&gt;1.在github上新建仓库(repository)&lt;br&gt;2.在本地建一个一样的repository(或者clone到本地—git clone 链接)&lt;br&gt;3.touch README.md                                                        //新建说明文件(若未clone)&lt;br&gt;4.git init                                                               //在当前项目目录中生成本地git管理,并建立一个隐藏.git目录&lt;br&gt;5.git add .                                                              //添加当前目录中的所有文件到索引&lt;br&gt;6.git commit -m “first commit”                                           //提交到本地源码库，并附加提交注释&lt;br&gt;7.git remote add origin &lt;a href=&quot;https://github.com/xuzhuzhuzi/test.git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/xuzhuzhuzi/test.git&lt;/a&gt; (项目链接)//添加到远程项目，别名为origin&lt;br&gt;8.git remote add origin &lt;a href=&quot;https://github.com/xuzhuzhuzi/test.git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/xuzhuzhuzi/test.git&lt;/a&gt;           //添加到远程项目，别名为origin&lt;/p&gt;
+&lt;h2 id=&quot;更新代码&quot;&gt;&lt;a href=&quot;#更新代码&quot; class=&quot;headerlink&quot; title=&quot;更新代码&quot;&gt;&lt;/a&gt;更新代码&lt;/h2&gt;&lt;p&gt;1.进入本地repository文件夹下&lt;br&gt;2.git add .&lt;br&gt;3.git commit -m “update test”                   //检测文件改动并附加提交注释&lt;br&gt;4.git push -u origin master                     //提交修改到项目主线&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;提交项目&quot;&gt;&lt;a href=&quot;#提交项目&quot; class=&quot;headerlink&quot; title=&quot;提交项目&quot;&gt;&lt;/a&gt;提交项目&lt;/h2&gt;&lt;p&gt;1.在github上新建仓库(repository)&lt;br&gt;2.在本地建一个一样的repository(或者clone到本地
+    
+    </summary>
+    
+      <category term="github" scheme="http://yoursite.com/categories/github/"/>
+    
+    
+      <category term="使用技能" scheme="http://yoursite.com/tags/%E4%BD%BF%E7%94%A8%E6%8A%80%E8%83%BD/"/>
+    
+      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>Here I am</title>
