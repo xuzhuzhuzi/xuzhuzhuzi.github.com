@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-11T13:41:23.310Z</updated>
+  <updated>2016-07-12T14:51:45.406Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>php方法总结（长期）</title>
+    <link href="http://yoursite.com/2016/07/12/function0712/"/>
+    <id>http://yoursite.com/2016/07/12/function0712/</id>
+    <published>2016-07-12T14:20:01.000Z</published>
+    <updated>2016-07-12T14:51:45.406Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;array-column-searchdata-‘phone’&quot;&gt;&lt;a href=&quot;#array-column-searchdata-‘phone’&quot; class=&quot;headerlink&quot; title=&quot;array_column($searchdata, ‘phone’)&quot;&gt;&lt;/a&gt;array_column($searchdata, ‘phone’)&lt;/h3&gt;&lt;p&gt;将二维数组中的某一项拼接成一位数组&lt;/p&gt;
+&lt;h3 id=&quot;array-unique&quot;&gt;&lt;a href=&quot;#array-unique&quot; class=&quot;headerlink&quot; title=&quot;array_unique()&quot;&gt;&lt;/a&gt;array_unique()&lt;/h3&gt;&lt;p&gt;去掉重复数组（一维数组、二维数组都适用，注意二维数组时其键值可能不是按顺序递增的）&lt;/p&gt;
+&lt;h3 id=&quot;array-diff-pushphone-adsphone&quot;&gt;&lt;a href=&quot;#array-diff-pushphone-adsphone&quot; class=&quot;headerlink&quot; title=&quot;array_diff($pushphone, $adsphone)&quot;&gt;&lt;/a&gt;array_diff($pushphone, $adsphone)&lt;/h3&gt;&lt;p&gt;比较两个数组的值（键值对中的值），并返回差集&lt;/p&gt;
+&lt;h3 id=&quot;implode-“-”-content&quot;&gt;&lt;a href=&quot;#implode-“-”-content&quot; class=&quot;headerlink&quot; title=&quot;implode(“|”, $content)&quot;&gt;&lt;/a&gt;implode(“|”, $content)&lt;/h3&gt;&lt;p&gt;把数组元素组合为字符串，前一个参数是规定数组元素之间放置的内容。默认是 “”（空字符串）&lt;/p&gt;
+&lt;h3 id=&quot;unset&quot;&gt;&lt;a href=&quot;#unset&quot; class=&quot;headerlink&quot; title=&quot;unset()&quot;&gt;&lt;/a&gt;unset()&lt;/h3&gt;&lt;p&gt;释放给定的变量(清空)&lt;/p&gt;
+&lt;h3 id=&quot;strpos-string-find-start&quot;&gt;&lt;a href=&quot;#strpos-string-find-start&quot; class=&quot;headerlink&quot; title=&quot;strpos(string,find,start)&quot;&gt;&lt;/a&gt;strpos(string,find,start)&lt;/h3&gt;&lt;p&gt;string必需,规定要搜索的字符串。&amp;emsp;find必需,规定要查找的字符串。&amp;emsp;start可选，规定在何处开始搜索。&lt;/p&gt;
+&lt;h3 id=&quot;is-numeric&quot;&gt;&lt;a href=&quot;#is-numeric&quot; class=&quot;headerlink&quot; title=&quot;is_numeric()&quot;&gt;&lt;/a&gt;is_numeric()&lt;/h3&gt;&lt;p&gt;检测变量是否为数字或数字字符串&lt;/p&gt;
+&lt;h3 id=&quot;print-r&quot;&gt;&lt;a href=&quot;#print-r&quot; class=&quot;headerlink&quot; title=&quot;print_r()&quot;&gt;&lt;/a&gt;print_r()&lt;/h3&gt;&lt;p&gt;print是打印字符串。&amp;emsp;print_r则是打印复合类型，如数组、对象。&lt;br&gt;echo不是函数，没有返回值，而print是一个函数有返回值，所以相对而言如果只是输出echo会更快。&lt;/p&gt;
+&lt;h3 id=&quot;array-keys&quot;&gt;&lt;a href=&quot;#array-keys&quot; class=&quot;headerlink&quot; title=&quot;array_keys()&quot;&gt;&lt;/a&gt;array_keys()&lt;/h3&gt;&lt;p&gt;返回包含数组中所有键名的一个新数组&lt;/p&gt;
+&lt;h3 id=&quot;array-merge-recursive-wresult-presult-vresult-mresult&quot;&gt;&lt;a href=&quot;#array-merge-recursive-wresult-presult-vresult-mresult&quot; class=&quot;headerlink&quot; title=&quot;array_merge_recursive($wresult, $presult, $vresult, $mresult)&quot;&gt;&lt;/a&gt;array_merge_recursive($wresult, $presult, $vresult, $mresult)&lt;/h3&gt;&lt;p&gt;将多个二维数据合成一个二维数组&lt;/p&gt;
+&lt;h3 id=&quot;array-slice-res-Page-gt-firstRow-Page-gt-listRows&quot;&gt;&lt;a href=&quot;#array-slice-res-Page-gt-firstRow-Page-gt-listRows&quot; class=&quot;headerlink&quot; title=&quot;array_slice($res,$Page-&amp;gt;firstRow,$Page-&amp;gt;listRows)&quot;&gt;&lt;/a&gt;array_slice($res,$Page-&amp;gt;firstRow,$Page-&amp;gt;listRows)&lt;/h3&gt;&lt;p&gt;在数组中根据条件取出一段值&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/imgs/phpfunction0712.png&quot;&gt;&lt;br&gt;&lt;/div&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;array-column-searchdata-‘phone’&quot;&gt;&lt;a href=&quot;#array-column-searchdata-‘phone’&quot; class=&quot;headerlink&quot; title=&quot;array_column($searchdata, ‘pho
+    
+    </summary>
+    
+      <category term="php" scheme="http://yoursite.com/categories/php/"/>
+    
+    
+      <category term="使用技能" scheme="http://yoursite.com/tags/%E4%BD%BF%E7%94%A8%E6%8A%80%E8%83%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>ThinkPHP分页方法总结</title>
@@ -54,10 +87,10 @@
     <link href="http://yoursite.com/2016/06/25/something/"/>
     <id>http://yoursite.com/2016/06/25/something/</id>
     <published>2016-06-25T12:55:46.000Z</published>
-    <updated>2016-06-25T13:28:29.405Z</updated>
+    <updated>2016-07-12T14:55:41.510Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;提交项目&quot;&gt;&lt;a href=&quot;#提交项目&quot; class=&quot;headerlink&quot; title=&quot;提交项目&quot;&gt;&lt;/a&gt;提交项目&lt;/h2&gt;&lt;p&gt;1.在github上新建仓库(repository)&lt;br&gt;2.在本地建一个一样的repository(或者clone到本地—git clone 链接)&lt;br&gt;3.touch README.md                                                        //新建说明文件(若未clone)&lt;br&gt;4.git init                                                               //在当前项目目录中生成本地git管理,并建立一个隐藏.git目录&lt;br&gt;5.git add .                                                              //添加当前目录中的所有文件到索引&lt;br&gt;6.git commit -m “first commit”                                           //提交到本地源码库，并附加提交注释&lt;br&gt;7.git remote add origin &lt;a href=&quot;https://github.com/xuzhuzhuzi/test.git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/xuzhuzhuzi/test.git&lt;/a&gt; (项目链接)//添加到远程项目，别名为origin&lt;br&gt;8.git remote add origin &lt;a href=&quot;https://github.com/xuzhuzhuzi/test.git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/xuzhuzhuzi/test.git&lt;/a&gt;           //添加到远程项目，别名为origin&lt;/p&gt;
-&lt;h2 id=&quot;更新代码&quot;&gt;&lt;a href=&quot;#更新代码&quot; class=&quot;headerlink&quot; title=&quot;更新代码&quot;&gt;&lt;/a&gt;更新代码&lt;/h2&gt;&lt;p&gt;1.进入本地repository文件夹下&lt;br&gt;2.git add .&lt;br&gt;3.git commit -m “update test”                   //检测文件改动并附加提交注释&lt;br&gt;4.git push -u origin master                     //提交修改到项目主线&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;提交项目&quot;&gt;&lt;a href=&quot;#提交项目&quot; class=&quot;headerlink&quot; title=&quot;提交项目&quot;&gt;&lt;/a&gt;提交项目&lt;/h2&gt;&lt;p&gt;1.在github上新建仓库(repository)&lt;br&gt;2.在本地建一个一样的repository(或者clone到本地—git clone 链接)&lt;br&gt;3.touch README.md&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;//新建说明文件(若未clone)&lt;br&gt;4.git init&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;//在当前项目目录中生成本地git管理,并建立一个隐藏.git目录&lt;br&gt;5.git add . &amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;   //添加当前目录中的所有文件到索引&lt;br&gt;6.git commit -m “first commit”&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;//提交到本地源码库，并附加提交注释&lt;br&gt;7.git remote add origin &lt;a href=&quot;https://github.com/xuzhuzhuzi/test.git&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/xuzhuzhuzi/test.git&lt;/a&gt; (项目链接)//添加到远程项目，别名为origin&lt;br&gt;8.git remote add origin &lt;a href=&quot;https://github.com/xuzhuzhuzi/test.git//添加到远程项目，别名为origin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/xuzhuzhuzi/test.git//添加到远程项目，别名为origin&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;更新代码&quot;&gt;&lt;a href=&quot;#更新代码&quot; class=&quot;headerlink&quot; title=&quot;更新代码&quot;&gt;&lt;/a&gt;更新代码&lt;/h2&gt;&lt;p&gt;1.进入本地repository文件夹下&lt;br&gt;2.git add .&lt;br&gt;3.git commit -m “update test”&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;//检测文件改动并附加提交注释&lt;br&gt;4.git push -u origin master&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;//提交修改到项目主线&lt;/p&gt;
 </content>
     
     <summary type="html">
