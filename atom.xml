@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>寻觅</title>
-  <subtitle>寻觅</subtitle>
+  <title>为天地立心</title>
+  <subtitle>为天地立心</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -9,7 +9,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>xuzhuzhuzi</name>
+    <name>唐少飞</name>
     <email>xuzhuzhuzi0321@gmail.com</email>
   </author>
   
